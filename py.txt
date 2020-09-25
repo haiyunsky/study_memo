@@ -1,0 +1,3 @@
+x_norm = np.linalg.norm(x,axis=1,keepdims=True)
+
+x_sum = np.sum(x_exp, axis=1, keepdims = True)

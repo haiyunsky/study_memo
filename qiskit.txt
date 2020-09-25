@@ -1,0 +1,40 @@
+
+https://qiskit.org/documentation/install.html
+
+
+qiskit 0.19.6 環境を構築する
+----------------------------------------
+conda create -n qiskit python=3
+conda activate qiskit
+pip install qiskit[visualization]
+
+# conda install numpy-1.19.1
+# conda create -n qiskit python=3.7.6
+
+
+e25b3cd1ac98a022c21c21471f7a7cab65e81c9ebd98a108e150c7b416788ec78f92984fc8ebc6957552aa27e297e32defda454cd01f05d97f647575ddca4c99
+
+
+
+
+
+2. Tensorflowの環境を構築する
+--------------------------------------
+conda create -y -n ENV_NAME python=3.7.6 tensorflow-gpu anaconda
+
+conda env remove -n ENV_NAME --all
+
+conda env remove -n rstudio
+
+
+
+
+
+tensorflow-2.0.0.dataのパスは
+C:\Users\yacoo\Anaconda3\Lib\site-packages
+です。
+
+
+
+
+

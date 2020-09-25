@@ -1,0 +1,4 @@
+
+haiyu@DESKTOP-5UGFJO5 MINGW64 ~ (master)
+$ go install first_webapp
+$ first_webapp.exe

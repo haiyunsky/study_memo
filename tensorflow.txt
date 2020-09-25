@@ -1,0 +1,70 @@
+
+conda install tensorflow
+
+-----------------------------------------  OK, it worked!
+Tensorflowの今のバージョン「1.14.0」
+
+
+conda create -n tensorflow python=3.7.6
+conda activate tensorflow
+
+conda install tensorflow==1.14.0
+
+
+tensorboard --logdir=./hhy/logs
+
+
+pip install numpy==1.16.4
+pip install tflearn
+conda install hdf5=1.10.3
+
+
+tensorboard --logdir=./hhy/logs
+
+
+----------------------------------------
+conda create -n chatbot python=3.7.6
+conda activate chatbot
+----------------------------------------------------------------
+## Package Plan ##
+
+  environment location: C:\Users\haiyu\anaconda3\envs\chatbot
+
+conda remove -n chatbot --all
+-------------------------------------------------
+https://blog.mktia.com/how-to-create-and-remove-virtual-environment-on-anaconda/
+
+
+
+
+
+
+
+
+
+2. Tensorflowの環境を構築する
+--------------------------------------
+conda create -y -n ENV_NAME python=3.7.6 tensorflow-gpu anaconda
+
+conda env remove -n ENV_NAME --all
+
+
+
+作った環境を有効化しましょう。
+---------------------------------------
+conda activate ENV_NAME
+
+
+動作確認
+---------------
+python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+
+
+tensorflow-2.0.0.dataのパスは
+C:\Users\yacoo\Anaconda3\Lib\site-packages
+です。
+
+
+
+
+
